@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
 <!-- build 20204.21.0217.1203                               -->
-<workbook original-version='18.1' source-build='2020.4.2 (20204.21.0217.1203)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<workbook original-version='18.1' source-build='2020.4.2 (20204.21.0217.1203)' source-platform='win' version='18.1' xml:base='https://prod-useast-b.online.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
     <AutoCreateAndUpdateDSDPhoneLayouts />
     <IntuitiveSorting />
@@ -18,6 +18,7 @@
     <WorksheetBackgroundTransparency />
     <ZoneBackgroundTransparency />
   </document-format-change-manifest>
+  <repository-location id='wine_reviews' path='/t/rhertelvisualizations/workbooks' revision='1.1' site='rhertelvisualizations' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -27,7 +28,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='winemag-data_first150k' name='textscan.11e3cc51mogviz10hdw071nps28v'>
-            <connection class='textscan' directory='C:/Users/rgher/OneDrive/Desktop/winemag-data_first150k.csv' filename='winemag-data_first150k.csv' password='' server='' />
+            <connection class='textscan' directory='C:/Users/rgher/OneDrive/Desktop/winemag-data_first150k.csv' filename='winemag-data_first150k.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.11e3cc51mogviz10hdw071nps28v' name='winemag-data_first150k.csv' table='[winemag-data_first150k#csv]' type='table'>
@@ -287,7 +288,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>150930</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[winemag-data_first150k.csv_78E4651350914484A2FD339B53F594BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>country</remote-name>
@@ -302,7 +302,6 @@
               <approx-count>54</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[winemag-data_first150k.csv_78E4651350914484A2FD339B53F594BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>description</remote-name>
@@ -317,7 +316,6 @@
               <approx-count>142890</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[winemag-data_first150k.csv_78E4651350914484A2FD339B53F594BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>designation</remote-name>
@@ -332,7 +330,6 @@
               <approx-count>23239</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[winemag-data_first150k.csv_78E4651350914484A2FD339B53F594BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>points</remote-name>
@@ -346,7 +343,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>27</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[winemag-data_first150k.csv_78E4651350914484A2FD339B53F594BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>price</remote-name>
@@ -360,7 +356,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>408</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[winemag-data_first150k.csv_78E4651350914484A2FD339B53F594BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>province</remote-name>
@@ -375,7 +370,6 @@
               <approx-count>513</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[winemag-data_first150k.csv_78E4651350914484A2FD339B53F594BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>region_1</remote-name>
@@ -390,7 +384,6 @@
               <approx-count>1883</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[winemag-data_first150k.csv_78E4651350914484A2FD339B53F594BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>region_2</remote-name>
@@ -405,7 +398,6 @@
               <approx-count>18</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[winemag-data_first150k.csv_78E4651350914484A2FD339B53F594BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>variety</remote-name>
@@ -420,7 +412,6 @@
               <approx-count>669</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[winemag-data_first150k.csv_78E4651350914484A2FD339B53F594BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>winery</remote-name>
@@ -435,7 +426,6 @@
               <approx-count>21227</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[winemag-data_first150k.csv_78E4651350914484A2FD339B53F594BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -4839,8 +4829,8 @@
           </layout-options>
           <size maxheight='1400' minheight='1400' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='61' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98222' id='60' param='vert' w='99000' x='500' y='889'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='67' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98222' id='66' param='vert' w='99000' x='500' y='889'>
                 <zone _.fcp.SetMembershipControl.false...type='title' _.fcp.SetMembershipControl.true...type-v2='title' h='4556' id='49' w='99000' x='500' y='889'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -4922,7 +4912,7 @@
       <simple-id uuid='{B7A7CA53-8D62-45C3-A91E-930655FA2A67}' />
     </dashboard>
   </dashboards>
-  <windows source-height='37'>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
     <window class='worksheet' name='Top 10 Varietals'>
       <cards>
         <edge name='left'>
@@ -4936,7 +4926,7 @@
           <strip size='2147483647'>
             <card type='rows' />
           </strip>
-          <strip size='30'>
+          <strip size='29'>
             <card type='title' />
           </strip>
         </edge>
@@ -4967,7 +4957,7 @@
           <strip size='2147483647'>
             <card type='rows' />
           </strip>
-          <strip size='30'>
+          <strip size='29'>
             <card type='title' />
           </strip>
         </edge>
@@ -5001,7 +4991,7 @@
           <strip size='2147483647'>
             <card type='rows' />
           </strip>
-          <strip size='30'>
+          <strip size='29'>
             <card type='title' />
           </strip>
         </edge>
@@ -5048,7 +5038,7 @@
           <strip size='2147483647'>
             <card type='rows' />
           </strip>
-          <strip size='30'>
+          <strip size='29'>
             <card type='title' />
           </strip>
         </edge>
@@ -5112,7 +5102,7 @@
           <strip size='2147483647'>
             <card type='rows' />
           </strip>
-          <strip size='30'>
+          <strip size='29'>
             <card type='title' />
           </strip>
         </edge>
@@ -5188,7 +5178,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='1' />
+      <active id='-1' />
       <simple-id uuid='{DB841AE0-5A20-4776-971F-671B25D79FF7}' />
     </window>
     <window class='dashboard' name='Story 1'>
