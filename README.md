@@ -1,2 +1,2 @@
 This is a visual intended to guide prospective wine buyers in choosing a wine that's fits their preferences. Specifically, it helps hone in on varietal, region, and price, and also provides reviews/descriptions of the flavor profile.
-Link:https://prod-useast-b.online.tableau.com/t/rhertelvisualizations/views/wine_reviews/WhatsYourWine?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link
+Link:https://public.tableau.com/profile/rachel.h7945#!/vizhome/wine_reviews_16169859171060/WhatsYourWine
